@@ -1,0 +1,51 @@
+body {
+    background-color: #CCCCFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    background-color: #ffffff;
+    width: 40%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    text-align: center;
+    color: #95a5a6;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.sign {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.box {
+    height: 70px;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 0 25px;
+    border-color:#e5e7e9  ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 1px 1px 0 rgba(0, 0, 0, 0.24);
+    padding: 35px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.button {
+    height: 90px;
+    width: 80%;
+    margin-top: 35px;
+    background-color:  #3498db ;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
