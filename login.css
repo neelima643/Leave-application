@@ -6,7 +6,7 @@ body {
 .main {
     background-color: #ffffff;
     width: 40%;
-    height: 500px;
+    min-height: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,6 +34,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 1px 1px 0 rgba(0, 0, 0, 0.24);
     padding: 35px;
+    margin-top: 10px;
     font-size: 30px;
     font-weight: lighter;
 }
@@ -48,4 +49,13 @@ body {
     color: #ffffff;
     font-weight: bold;
 
+}
+
+.errormsg {
+    
+    color: #FF0000;
+    
+
+    
+    
 }
