@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 11, 2021 at 07:11 PM
--- Server version: 5.7.33-0ubuntu0.18.04.1
+-- Generation Time: May 13, 2021 at 10:17 AM
+-- Server version: 5.7.34-0ubuntu0.18.04.1
 -- PHP Version: 7.2.24-0ubuntu0.18.04.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -41,7 +41,14 @@ INSERT INTO `leaveapp` (`email`, `ltype`, `lfrom`, `lto`) VALUES
 ('devika123@gmail.com', 'sick', '2021-05-13', '2021-05-22'),
 ('devika123@gmail.com', 'casual', '2021-05-06', '2021-05-09'),
 ('devika123@gmail.com', 'casual', '2021-05-05', '2021-05-06'),
-('devika123@gmail.com', 'paid', '2021-04-30', '2021-05-08');
+('devika123@gmail.com', 'paid', '2021-04-30', '2021-05-08'),
+('devika123@gmail.com', 'paid', '2021-05-07', '2021-05-19'),
+('a@gmail.com', 'casual', '2021-05-05', '2021-05-20'),
+('admin@gmailcom', 'casual', '2021-05-10', '2021-05-10'),
+('admin@gmailcom', 'casual', '2021-04-27', '2021-05-10'),
+('admin@gmail.com', 'casual', '2021-05-15', '2021-05-20'),
+('admin@gmail.com', 'casual', '2021-05-07', '2021-05-21'),
+('admin@gmail.com', 'casual', '2021-05-01', '2021-05-04');
 
 -- --------------------------------------------------------
 
@@ -59,7 +66,7 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`email`, `password`) VALUES
-('devika123@gmail.com', 'Devi@123');
+('admin@gmail.com', 'admin123');
 
 --
 -- Indexes for dumped tables

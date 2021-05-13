@@ -1,10 +1,11 @@
 body {
-    background-color: #CCCCFF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("./leave.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;  
 }
 
 .main {
-    background-color: #ffffff;
+    background-color: transparent;
     width: 60%;
     min-height: 300px;
     position: absolute;
@@ -12,7 +13,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    
     color: #95a5a6;
     padding-left: 65px;
     padding-right: 65px;
@@ -33,12 +33,19 @@ body {
     font-weight: bold;
 }
 
+input {
+    background-color: transparent;
+    
+}
+
 .list {
     width: 100%;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
+    background-color: transparent;
+    
 }
 
 .box {
@@ -46,7 +53,7 @@ body {
     width: 80%;
     box-sizing: border-box;
     margin: 0 0 25px;
-    border-color:#e5e7e9  ;
+    border-color:#aacdf0;
     border-radius: 15px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 1px 1px 0 rgba(0, 0, 0, 0.24);
     padding: 35px;
@@ -90,7 +97,7 @@ body {
     height: 60px;
     width: 20%;
     margin-top: 35px;
-    background-color:  #3498db ;
+    background-color:  #7bb6f1;
     margin-left: 80%;
     margin-right: 20%;
     font-size: 30px;
@@ -109,7 +116,7 @@ body {
 
 a {
     float: right;
-    background-color: #3498db;
+    background-color:  #7bb6f1;
     color: #ffffff;
     font-weight: bold;
     font-size: 15px;

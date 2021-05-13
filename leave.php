@@ -7,7 +7,7 @@
 
     <body>
         <div class="main">
-            <a href="./login.php">Logout</a>  
+            <a href="./login_org.php">Logout</a>  
             <h2 class="heading">Leave Application Form</h2>
             <form action="./proceed.php" method="POST">
                 <label class="head">Leave Type</label>

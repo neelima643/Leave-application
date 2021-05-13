@@ -25,6 +25,7 @@
             if (mysqli_query($con, $data)) {
                 
                 header("Location: ./leave.php?message=Leave aplication updated!");
+                session_destroy();
                 
               } 
             else {
